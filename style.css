@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+canvas{
+    border: 2px solid purple;
+}
+.toolbox{
+    display: flex;
+    padding: 0.5rem;
+    background-color: purple;
+    width: 404px;
+}
+.toolbox > *{
+    background-color: white;
+    margin: 3px;
+    padding: 0.25rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 30px;
+    border: none;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.toolbox>*:last-child{
+    margin-left: auto;
+}
